@@ -1,0 +1,291 @@
+
+.page-container {
+  background-color: #030f27;
+  color: black;
+  padding: 20px; 
+}
+/* .services-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  background-color: #fdbe33;
+  padding: 20px;
+} */
+
+
+
+.service-card-left, .service-card-right { 
+  margin-bottom: 30px;
+  border-radius: 15px;
+  height: auto;
+  width: 650px;
+  border: 1px solid #ddd;
+  background-color: #fdbe33;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.service-card-left:hover ,.service-card-right:hover{ 
+  transform: translateY(-5px); 
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.service-card-right .card-img-top,
+.service-card-left .card-img-top { 
+  height: 250px;
+  width: 600px; 
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25px;
+  align-items: center;
+  object-fit: cover;
+   
+  /* border-top-left-radius: 14px;
+  border-top-right-radius: 14px; */
+}
+
+.view-more-btn {
+  background-color: #000; 
+  color: #fdbe33;
+  border: none;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.view-more-btn:hover {
+  background-color: #333;
+  transform: translateY(-3px); 
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity:0 ;
+    transform:translateX(-100%)
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity:0 ;
+    transform:translateX(100%)
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.service-card-left { 
+  animation: slideInLeft  0.5s  ease-in-out ; 
+}
+
+.service-card-right { 
+  animation: slideInRight  0.5s ease-in-out ; 
+}
+
+/* aggregate  */
+.materials-page{
+  background-color: #030f27;
+}
+
+
+/* Example animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply animation to specific elements */
+h2 {
+  animation: fadeIn 1s ease-in-out;
+  color: white;
+  animation: slideInRight 1s ease-in-out;
+}
+
+.Head{
+  height: 70px;
+  width: 100%;
+  background-color: #fdbe33;
+  text-align: center;
+  align-items: center;
+  text-shadow: #333;
+  padding: 10px;
+  margin-top: 10px;
+}
+.Head2-container {
+  overflow: hidden;
+}
+
+.Head2 {
+  color: azure;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  animation: slideAnimation 2s infinite alternate;
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(100% - 100vw)); /* Adjust the value according to the width of your viewport */
+  }
+}
+
+
+p1,p2,p3,p4 {
+  animation: slideInRight 1s ease-in-out;
+  color: white;
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.tablespec{
+  margin-top: 50px;
+  margin-bottom: 30PX;
+  margin-left:200px ;
+  animation: slideInRight 1s ease-in-out;
+
+}
+.bold-word {
+  font-weight: bold;
+}
+.imageagg {
+  height: 550px;
+  width: 700px;
+  animation: rotateAndSlide 2s ease-in-out forwards;
+}
+
+@keyframes rotateAndSlide {
+  0% {
+    transform: rotate(0deg) translateX(-100%) scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(180deg) translateX(0%) scale(0.7);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0deg) translateX(0%) scale(1);
+    opacity: 1;
+  }
+}
+
+
+
+/* table */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply styles to the table */
+.spec-table {
+  width: 700px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.spec-table tbody tr {
+  animation: rowFadeIn 0.5s forwards;
+  opacity: 0;
+}
+
+.spec-table tbody tr:nth-child(1) {
+  animation-delay: 0.1s; /* Increased delay for the first row */
+}
+.spec-table tbody tr:nth-child(2) {
+  animation-delay: 1.5s; /* Increased delay for the second row */
+}
+.spec-table tbody tr:nth-child(3) {
+  animation-delay: 2s; /* Increased delay for the third row */
+}
+.spec-table tbody tr:nth-child(4) {
+  animation-delay: 2.5s; /* Increased delay for the fourth row */
+}
+.spec-table tbody tr:nth-child(5) {
+  animation-delay: 3s; /* Increased delay for the fifth row */
+}
+
+@keyframes rowFadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.price-tag {
+  text-align: center;
+  color: black;
+  height: 100px;
+  width: 150px;
+  background-color: #fdbe33;
+  margin-top: 200px;
+  margin-left: 150px;
+  border-radius: 15px;
+  border: 3px solid black;
+  animation: pulseRotate 10s linear infinite;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.unit {
+  font-size: 16px;
+}
+
+.blurry {
+  filter: blur(4px);
+}
+
+@keyframes pulseRotate {
+  0% {
+    transform: scale(0.1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(360deg);
+  }
+  75% {
+    transform: scale(1) rotate(360deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+

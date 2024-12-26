@@ -1,0 +1,135 @@
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.page-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 90px 0;
+    text-align: center;
+    background: #fdbe33;
+}
+
+.page-header h2 {
+    position: relative;
+    color: #030f27;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.page-header h2::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    left: calc(50% - 50px);
+    bottom: 0;
+    background: #030f27;
+}
+
+.page-header a {
+    position: relative;
+    padding: 0 12px;
+    font-size: 22px;
+    color: #030f27;
+}
+
+.page-header a:hover {
+    color: #ffffff;
+}
+
+.page-header a::after {
+    position: absolute;
+    content: "/";
+    width: 8px;
+    height: 8px;
+    top: -2px;
+    right: -7px;
+    text-align: center;
+    color: #121518;
+}
+
+.page-header a:last-child::after {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .page-header {
+        padding: 60px 0;
+    }
+    
+    .page-header h2 {
+        font-size: 45px;
+    }
+    
+    .page-header a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .page-header {
+        padding: 45px 0;
+    }
+    
+    .page-header h2 {
+        font-size: 35px;
+    }
+    
+    .page-header a {
+        font-size: 18px;
+    }
+}
+
+.page-header {
+    padding: 20px 0; /* Add padding for better spacing */
+  }
+  
+
+/* 2nd Container styles */
+.containers {
+    padding: 20px;
+    background-color: #ffffff; 
+    margin-bottom: 20px; 
+}
+
+.containers h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #030f27; 
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #ffa500; 
+    text-align: center;
+}
+
+.containers h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffa500; 
+    border-bottom: 2px solid #121518; 
+    padding-bottom: 15px; 
+}
+
+.containers h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #030f27 ;
+}
+
+.containers p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #121518; 
+    justify-content: space-evenly;
+}
+
+/* contact us link */
+.containers .contact-link {
+    color: #fdbe33;
+  }
+  
+  .containers .contact-link:hover {
+    color: #121518;  
+  }

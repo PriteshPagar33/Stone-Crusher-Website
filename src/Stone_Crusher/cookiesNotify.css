@@ -1,0 +1,37 @@
+  .modal-dialog {
+    max-width: 450px;
+    max-height: fit-content;
+  }
+
+  .modal-header {
+    background-color:  #fdbe33;
+    border-bottom: none;
+  }
+  
+  .modal-title {
+    color:#121518;
+    font-size: 1.3rem;
+  }
+  
+  .modal-body {
+    color:#121518;
+    font-size: 1 rem;
+    background-color: #ffffff;
+  }
+  
+  .modal-footer {
+    border-top: none;
+  }
+  
+  .btn-primary {
+    background-color:  #fdbe33;
+    border: 1.5px solid #121518;
+    color:#ffffff
+  }
+  
+  .btn-primary:hover {
+  background-color: #121518; 
+  border: 1.5px solid #fdbe33; 
+  color:#ffffff; 
+}
+  

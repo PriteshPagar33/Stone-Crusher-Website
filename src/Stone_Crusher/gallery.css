@@ -1,0 +1,126 @@
+.card1 {
+    width: 100%;
+    height: 300px;
+    aspect-ratio: 1 / 0.7;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; /* Hide overflow content */
+  }
+  
+  .card1 .image-box {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    
+  }
+  
+  .card1 .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 90%;
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+    
+
+  }
+  
+  .card1::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 1px solid grey;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .card1:hover img {
+    filter: grayscale(0) brightness(0.8);
+  }
+  
+  .card1:hover::after {
+    opacity: 1;
+    inset: 20px;
+  }
+  
+  .content {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .content h2,
+  .content p {
+    opacity: 0;
+    transition: 0.4s 0.2s ease;
+  }
+  
+  .content h2 {
+    margin-bottom: 12px;
+    scale: 0.7;
+  }
+  
+  .content p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff3f3;
+    transform: translateY(50%);
+  }
+  
+  .card1:hover .content h2,
+  .card1:hover .content p {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  
+  .gallery-heading {
+    font-size: 32px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    color: var(--color-6); /* Dark text color */
+    text-align: center; /* Center align the text */
+    text-transform: uppercase; /* Convert text to uppercase */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+  }
+
+@media  (max-width: 768px) {
+    .overlay h2{
+    font-size: 22px;
+
+    }
+   
+}
+@media  (max-width: 768px) {
+    .overlay h3{
+    font-size: 13px;
+
+    }
+   
+}
+@media  (max-width: 768px) {
+    .overlay h4{
+    font-size: 12px;
+
+    }
+   
+}
+
+
+
+/* vido */
+.video-container {
+  width: auto;
+  height: 500px;
+  border-radius: 8px;
+   cursor: pointer;
+  overflow: hidden;
+}
+
+
+
