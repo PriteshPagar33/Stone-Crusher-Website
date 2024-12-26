@@ -403,7 +403,7 @@ function Home() {
               <div class="service-item">
                 <div class="service-img">
                   <img
-                    src="https://s3.us-east-1.amazonaws.com/mclanahan.com/images/Industries/CD/Sand-Dewatering-_-web.jpg"
+                    src="https://imgs.search.brave.com/dHxP-ixPhD032c59s8k444_8ALbwnqJiYgCQXHTpJX4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly8zLmlt/aW1nLmNvbS9kYXRh/My9ZVC9HSS9NWS05/NzQ0NzIvMWEtNTAw/eDUwMC5qcGc"
                     alt=""
                   />
                   <div class="service-overlay">
@@ -419,7 +419,8 @@ function Home() {
                 </div>
                 <div class="service-text">
                   <h3>C & D Waste Recycling</h3>
-                  {/* <a class="btn" href="https://www.cdegroup.com/getmedia/b89aad89-1ac2-4390-8f1c-e349cd050b6f/Sodextra-Overview-670x520.jpg" data-lightbox="service">+</a> */}
+                  
+                  {/* <a class="btn" href="https://www.cdegroup.com/us/applications/waste-recycling/c-d-waste-recycling" data-lightbox="service">+</a> */}
                 </div>
               </div>
             </div>
@@ -432,3 +433,4 @@ function Home() {
 }
 
 export default Home;
+
