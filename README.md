@@ -22,7 +22,7 @@ Designed and developed a website for SS Jupiter Stone Crusher, enabling customer
 ### Frontend
 - HTML5
 - CSS3/SCSS
-- JavaScript (ES6+)
+- JavaScript 
 - React.js
 - Tailwind CSS
 
