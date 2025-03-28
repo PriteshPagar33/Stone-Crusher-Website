@@ -80,12 +80,5 @@ Unauthorized copying, modification, distribution, or use of any files in this re
 
 This project is licensed under strict terms. See the [LICENSE](LICENSE) file for details.
 
-## 📞 Support
-
-For support and inquiries:
-- 📧 Email: ssjiltd@gmail.com
-- 💬 Live Chat: Available on website
-- 📱 Phone: 9970446795 / 9665200356
-
 ---
 Made with ❤️ by Pritesh & Build SIte Crew
