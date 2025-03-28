@@ -3,12 +3,6 @@
 An interactive website showcasing our industrial stone crushing services, equipment specifications, and project portfolio.
 Designed and developed a website for SS Jupiter Stone Crusher, enabling customers to easily browse products, view detailed specifications, and engage in direct communication for inquiries and purchases. It supports online communication with clients for better customer experience.Technologies Used: React.js, HTML, CSS, JavaScript, Mongodb ,Node.js ,Express.js.
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-<!-- [![Website Status](https://img.shields.io/badge/Website-Live-brightgreen)](https://stone-crusher-website.vercel.app/) -->
-
-
-
-(Note : Website is not responsive in design for phones right now )
 
 ## 🌟 Features
 
